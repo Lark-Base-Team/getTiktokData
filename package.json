@@ -6,6 +6,7 @@
     "build": "vite build",
     "preview": "vite preview --port 4173"
   },
+  "output":"dist",
   "dependencies": {
     "@lark-base-open/js-sdk": "^0.3.5",
     "axios": "^1.6.3",

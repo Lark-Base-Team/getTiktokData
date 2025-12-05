@@ -274,7 +274,7 @@ const getSelectedFieldsId = (fieldList, checkedFields) => {
 * tiktok-获取数据
 */
 const getTiktokDataByLink = async (path, noteLink) => {
-  var url = `https://get-tik-tok-data-backend.replit.app/${path}`
+  var url = `https://connector.baseopendevx.com/tiktok-data/${path}`// TODO 替换
 
   let res;
 
